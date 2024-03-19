@@ -1,0 +1,12 @@
+.get
+{
+    background-color: #E8EDFE;
+    justify-content: space-evenly;
+}
+
+.cir-img
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
