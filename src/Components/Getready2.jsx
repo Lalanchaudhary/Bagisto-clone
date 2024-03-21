@@ -22,7 +22,7 @@ function Getready2() {
         <Col className='round our'>
         <img data-aos="fade-left"
         src="https://demo.bagisto.com/bagisto-common/storage/theme/8/A4LcK6YbIWuHLzM8ajzyc8QTFoJQUIvZzhqjGx95.webp" alt="" />
-        <h1>Our <br/> Collection</h1>
+        <h1>Our <br/> Collections</h1>
         </Col>
       </Row>
       </Container>
