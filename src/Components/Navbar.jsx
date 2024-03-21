@@ -9,7 +9,7 @@ import { MdOutlineCameraAlt } from "react-icons/md";
 function CustomNavbar() {
   return (
     <>
-      <Navbar bg="light" expand="lg" sticky="top" className='p-4' >
+      <Navbar data-aos="zoom-in" bg="light" expand="lg" sticky="top" className='p-4' >
         <Container className='contain'>
           <Navbar.Brand href="#home" className='mr-4 mb-2 photo1'><Image src='https://demo.bagisto.com/bagisto-common/themes/shop/default/build/assets/logo-942157c2.svg' height={30} /></Navbar.Brand>
           <Navbar.Toggle className='me-auto togg' aria-controls="basic-navbar-nav" />
@@ -21,12 +21,12 @@ function CustomNavbar() {
             </Nav>
           </Navbar.Collapse>
           <Form className='d-flex align-items-center form-box'>
-            <IoIosSearch className='search-btn' />
+            <IoIosSearch className=' icon search-btn' />
             <input type='text' placeholder='Search product here' className=' Search-box' />
-            <MdOutlineCameraAlt className='cam-icon'/>
-            <FaArrowRightArrowLeft className='ms-4' />
-            <SlBag className='icon3 mx-4 me-2' />
-            <CiUser className='icon2 ' />
+            <MdOutlineCameraAlt className=' icon cam-icon'/>
+            <FaArrowRightArrowLeft className=' icon  ms-4' />
+            <SlBag className=' icon icon3 mx-4 me-2' />
+            <CiUser className=' icon icon2 ' />
           </Form>
         </Container>
       </Navbar>
