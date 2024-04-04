@@ -8,7 +8,7 @@ function Casd(props) {
     <Row md={1} className="g-2" >
       {Array.from({ length: 1 }).map((_, idx) => (
         <Col key={idx}>
-          <Card data-aos="zoom-in-up">
+          <Card>
             <Card.Img className='img' variant="top" src={props.data.image}/>
             <h1 className='position-absolute collection'>Our Collection</h1>
           </Card>

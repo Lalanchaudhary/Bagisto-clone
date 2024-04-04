@@ -14,13 +14,13 @@ function Getready2() {
       <Row className= "d-flex">
 
         <Col className="round our">
-        <img data-aos="fade-right"
+        <img
          src="https://demo.bagisto.com/bagisto-common/storage/theme/8/UQrrhngMrjNBrOtX9O2T63zFsWbTAEAgsZliWQfI.webp" alt="" />
         <h1>Our <br/> Collection</h1>
         </Col>
 
         <Col className='round our'>
-        <img data-aos="fade-left"
+        <img
         src="https://demo.bagisto.com/bagisto-common/storage/theme/8/A4LcK6YbIWuHLzM8ajzyc8QTFoJQUIvZzhqjGx95.webp" alt="" />
         <h1>Our <br/> Collections</h1>
         </Col>
