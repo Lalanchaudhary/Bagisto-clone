@@ -21,12 +21,12 @@ function CustomNavbar() {
             </Nav>
           </Navbar.Collapse>
           <Form className='d-flex align-items-center form-box'>
-            <IoIosSearch className='search-btn' />
+            <IoIosSearch className=' icon search-btn' />
             <input type='text' placeholder='Search product here' className=' Search-box' />
-            <MdOutlineCameraAlt className='cam-icon'/>
-            <FaArrowRightArrowLeft className='ms-4' />
-            <SlBag className='icon3 mx-4 me-2' />
-            <CiUser className='icon2 ' />
+            <MdOutlineCameraAlt className=' icon cam-icon'/>
+            <FaArrowRightArrowLeft className=' icon  ms-4' />
+            <SlBag className=' icon icon3 mx-4 me-2' />
+            <CiUser className=' icon icon2 ' />
           </Form>
         </Container>
       </Navbar>
